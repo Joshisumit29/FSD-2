@@ -1,0 +1,25 @@
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+import Contact from './contact';
+
+
+export default function SinglePageApp() {
+  return (
+    <BrowserRouter>
+      <nav>
+        <Link to="/">Home</Link> |{" "}
+        <Link to="/about">About</Link> |{" "}
+        <Link to="/contact">contact</Link> |{" "}
+        
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<contact />} />
+       
+      </Routes>
+    </BrowserRouter>
+  );
+}                                          
