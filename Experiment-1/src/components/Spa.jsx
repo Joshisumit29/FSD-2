@@ -9,10 +9,10 @@ export default function SinglePageApp() {
   return (
     <BrowserRouter>
       <nav>
-        <Link to="/">Home</Link> |{" "}
-        <Link to="/about">About</Link> |{" "}
-        <Link to="/contact">contact</Link> |{" "}
-        <Link to="/ButtonBasic">button</Link> |{" "}\
+        <Link to="/">Home</Link> ||{" "}
+        <Link to="/about">About</Link> ||{" "}
+        <Link to="/contact">contact</Link> ||{" "}
+        <Link to="/ButtonBasic">button</Link> {" "}
         
       </nav>
 
